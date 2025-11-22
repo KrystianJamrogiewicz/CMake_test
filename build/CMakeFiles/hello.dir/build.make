@@ -71,33 +71,51 @@ include CMakeFiles/hello.dir/flags.make
 CMakeFiles/hello.dir/codegen:
 .PHONY : CMakeFiles/hello.dir/codegen
 
-CMakeFiles/hello.dir/main.cpp.obj: CMakeFiles/hello.dir/flags.make
-CMakeFiles/hello.dir/main.cpp.obj: D:/Dokumenty/jamro/Projekty/Programowanie/C++/CMake_test/main.cpp
-CMakeFiles/hello.dir/main.cpp.obj: CMakeFiles/hello.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Dokumenty\jamro\Projekty\Programowanie\C++\CMake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hello.dir/main.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello.dir/main.cpp.obj -MF CMakeFiles\hello.dir\main.cpp.obj.d -o CMakeFiles\hello.dir\main.cpp.obj -c D:\Dokumenty\jamro\Projekty\Programowanie\C++\CMake_test\main.cpp
+CMakeFiles/hello.dir/src/main.cpp.obj: CMakeFiles/hello.dir/flags.make
+CMakeFiles/hello.dir/src/main.cpp.obj: CMakeFiles/hello.dir/includes_CXX.rsp
+CMakeFiles/hello.dir/src/main.cpp.obj: D:/Dokumenty/jamro/Projekty/Programowanie/C++/CMake_test/src/main.cpp
+CMakeFiles/hello.dir/src/main.cpp.obj: CMakeFiles/hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Dokumenty\jamro\Projekty\Programowanie\C++\CMake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hello.dir/src/main.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello.dir/src/main.cpp.obj -MF CMakeFiles\hello.dir\src\main.cpp.obj.d -o CMakeFiles\hello.dir\src\main.cpp.obj -c D:\Dokumenty\jamro\Projekty\Programowanie\C++\CMake_test\src\main.cpp
 
-CMakeFiles/hello.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hello.dir/main.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Dokumenty\jamro\Projekty\Programowanie\C++\CMake_test\main.cpp > CMakeFiles\hello.dir\main.cpp.i
+CMakeFiles/hello.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hello.dir/src/main.cpp.i"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Dokumenty\jamro\Projekty\Programowanie\C++\CMake_test\src\main.cpp > CMakeFiles\hello.dir\src\main.cpp.i
 
-CMakeFiles/hello.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hello.dir/main.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Dokumenty\jamro\Projekty\Programowanie\C++\CMake_test\main.cpp -o CMakeFiles\hello.dir\main.cpp.s
+CMakeFiles/hello.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hello.dir/src/main.cpp.s"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Dokumenty\jamro\Projekty\Programowanie\C++\CMake_test\src\main.cpp -o CMakeFiles\hello.dir\src\main.cpp.s
+
+CMakeFiles/hello.dir/src/greeter.cpp.obj: CMakeFiles/hello.dir/flags.make
+CMakeFiles/hello.dir/src/greeter.cpp.obj: CMakeFiles/hello.dir/includes_CXX.rsp
+CMakeFiles/hello.dir/src/greeter.cpp.obj: D:/Dokumenty/jamro/Projekty/Programowanie/C++/CMake_test/src/greeter.cpp
+CMakeFiles/hello.dir/src/greeter.cpp.obj: CMakeFiles/hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Dokumenty\jamro\Projekty\Programowanie\C++\CMake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hello.dir/src/greeter.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello.dir/src/greeter.cpp.obj -MF CMakeFiles\hello.dir\src\greeter.cpp.obj.d -o CMakeFiles\hello.dir\src\greeter.cpp.obj -c D:\Dokumenty\jamro\Projekty\Programowanie\C++\CMake_test\src\greeter.cpp
+
+CMakeFiles/hello.dir/src/greeter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hello.dir/src/greeter.cpp.i"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Dokumenty\jamro\Projekty\Programowanie\C++\CMake_test\src\greeter.cpp > CMakeFiles\hello.dir\src\greeter.cpp.i
+
+CMakeFiles/hello.dir/src/greeter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hello.dir/src/greeter.cpp.s"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Dokumenty\jamro\Projekty\Programowanie\C++\CMake_test\src\greeter.cpp -o CMakeFiles\hello.dir\src\greeter.cpp.s
 
 # Object files for target hello
 hello_OBJECTS = \
-"CMakeFiles/hello.dir/main.cpp.obj"
+"CMakeFiles/hello.dir/src/main.cpp.obj" \
+"CMakeFiles/hello.dir/src/greeter.cpp.obj"
 
 # External object files for target hello
 hello_EXTERNAL_OBJECTS =
 
-hello.exe: CMakeFiles/hello.dir/main.cpp.obj
+hello.exe: CMakeFiles/hello.dir/src/main.cpp.obj
+hello.exe: CMakeFiles/hello.dir/src/greeter.cpp.obj
 hello.exe: CMakeFiles/hello.dir/build.make
 hello.exe: CMakeFiles/hello.dir/linkLibs.rsp
 hello.exe: CMakeFiles/hello.dir/objects1.rsp
 hello.exe: CMakeFiles/hello.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Dokumenty\jamro\Projekty\Programowanie\C++\CMake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable hello.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Dokumenty\jamro\Projekty\Programowanie\C++\CMake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable hello.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\hello.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
