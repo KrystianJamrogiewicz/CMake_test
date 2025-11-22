@@ -1,0 +1,3 @@
+D:/Dokumenty/jamro/Projekty/Programowanie/C++/CMake_test/build/CMakeFiles/hello.dir
+D:/Dokumenty/jamro/Projekty/Programowanie/C++/CMake_test/build/CMakeFiles/edit_cache.dir
+D:/Dokumenty/jamro/Projekty/Programowanie/C++/CMake_test/build/CMakeFiles/rebuild_cache.dir

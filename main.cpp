@@ -1,12 +1,7 @@
-#include "greeter.hpp"
 #include <iostream>
 
-int main (int argc, char *argv[]) {
-    if (argc > 1) {
-        std::cout << greetings(argv[1]) << '\n';
-    }
-
+int main() {
+    std::cout << "Hello World!" << std::endl;
+    std::cin.get();
     return 0;
-    
 }
-
